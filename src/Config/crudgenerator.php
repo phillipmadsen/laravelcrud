@@ -14,6 +14,9 @@ return [
      */
 
     'path' => base_path('resources/'),
+    
+    'modelPath' => base_path('app/Models/'),
+    'modelNamespace' => base_path('App\Models'),
 
     'route' => base_path('routes/web.php'),
 
